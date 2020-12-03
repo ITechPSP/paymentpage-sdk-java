@@ -1,6 +1,4 @@
-[![Build Status](https://travis-ci.org/ITechPSP/paymentpage-sdk-java.svg?branch=master)](https://travis-ci.org/ITechPSP/paymentpage-sdk-java)
-[![Test Coverage](https://api.codeclimate.com/v1/badges/5e6463829b663913fe91/test_coverage)](https://codeclimate.com/github/ITechPSP/paymentpage-sdk-java/test_coverage)
-[![Maintainability](https://api.codeclimate.com/v1/badges/5e6463829b663913fe91/maintainability)](https://codeclimate.com/github/ITechPSP/paymentpage-sdk-java/maintainability)
+[![Build Status](https://travis-ci.com/ITechPSP/paymentpage-sdk-java.svg?branch=main)](https://travis-ci.com/ITechPSP/paymentpage-sdk-java)
 
 # ITechPSP payment page SDK
 
