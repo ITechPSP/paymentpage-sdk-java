@@ -1,4 +1,4 @@
-package com.itechpsp.sdk;
+package com.trxhosts.sdk;
 
 /**
  * Exception that throws when has some errors in payment flow

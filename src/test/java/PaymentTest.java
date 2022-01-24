@@ -1,4 +1,4 @@
-import com.itechpsp.sdk.Payment;
+import com.trxhosts.sdk.Payment;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;

@@ -1,5 +1,5 @@
-import com.itechpsp.sdk.PaymentPage;
-import com.itechpsp.sdk.SignatureHandler;
+import com.trxhosts.sdk.PaymentPage;
+import com.trxhosts.sdk.SignatureHandler;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;

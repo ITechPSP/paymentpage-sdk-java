@@ -1,4 +1,4 @@
-package com.itechpsp.sdk;
+package com.trxhosts.sdk;
 
 import java.io.UnsupportedEncodingException;
 import java.net.URLEncoder;
@@ -25,7 +25,7 @@ public class PaymentPage
     private SignatureHandler signatureHandler;
 
     /**
-     * com.itechpsp.sdk.PaymentPage constructor
+     * com.trxhosts.sdk.PaymentPage constructor
      * @param signHandler signature handler for generate signature
      */
     public PaymentPage(SignatureHandler signHandler) {
@@ -45,7 +45,7 @@ public class PaymentPage
 
     /**
      * Method build payment URL
-     * @param payment com.itechpsp.sdk.Payment instance with payment params
+     * @param payment com.trxhosts.sdk.Payment instance with payment params
      * @return string URL that you can use for redirect on payment page
      */
     public String getUrl(Payment payment) {

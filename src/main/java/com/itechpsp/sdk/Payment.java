@@ -1,4 +1,4 @@
-package com.itechpsp.sdk;
+package com.trxhosts.sdk;
 
 import java.time.ZonedDateTime;
 import java.time.format.DateTimeFormatter;
@@ -71,7 +71,7 @@ public class Payment
     private HashMap<String, Object> params = new HashMap<String, Object>();
 
     /**
-     * com.itechpsp.sdk.Payment constructor
+     * com.trxhosts.sdk.Payment constructor
      * @param projectId site id in our system
      */
     public Payment(String projectId) {
@@ -81,7 +81,7 @@ public class Payment
     }
 
     /**
-     * com.itechpsp.sdk.Payment constructor
+     * com.trxhosts.sdk.Payment constructor
      * @deprecated
      * @param projectId site id in our system
      * @param paymentId payment id in your system

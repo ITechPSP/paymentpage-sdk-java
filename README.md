@@ -1,9 +1,9 @@
-[![Build Status](https://travis-ci.com/ITechPSP/paymentpage-sdk-java.svg?branch=main)](https://travis-ci.com/ITechPSP/paymentpage-sdk-java)
+[![Build Status](https://travis-ci.com/trxhosts/paymentpage-sdk-java.svg?branch=main)](https://travis-ci.com/trxhosts/paymentpage-sdk-java)
 
-# ITechPSP payment page SDK
+# TrxHosts payment page SDK
 
 This is a set of libraries in the Java language to ease integration of your service
-with the ITechPSP Payment Page.
+with the TrxHosts Payment Page.
 
 ## Payment flow
 
@@ -25,7 +25,7 @@ String paymentUrl = gate.getPurchasePaymentPageUrl(payment);
 
 `paymentUrl` here is the signed URL.
 
-### Handle callback from ITechPSP
+### Handle callback from TrxHosts
 
 You'll need to autoload this code in order to handle notifications:
 

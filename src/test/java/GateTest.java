@@ -1,6 +1,6 @@
-import com.itechpsp.sdk.Callback;
-import com.itechpsp.sdk.Gate;
-import com.itechpsp.sdk.ProcessException;
+import com.trxhosts.sdk.Callback;
+import com.trxhosts.sdk.Gate;
+import com.trxhosts.sdk.ProcessException;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;

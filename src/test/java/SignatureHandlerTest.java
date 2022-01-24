@@ -1,4 +1,4 @@
-import com.itechpsp.sdk.SignatureHandler;
+import com.trxhosts.sdk.SignatureHandler;
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.junit.After;

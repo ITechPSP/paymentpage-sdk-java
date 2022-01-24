@@ -1,4 +1,4 @@
-package com.itechpsp.sdk;
+package com.trxhosts.sdk;
 
 import javax.crypto.Mac;
 import javax.crypto.spec.SecretKeySpec;
@@ -41,7 +41,7 @@ public class SignatureHandler
     private String secret = "";
 
     /**
-     * com.itechpsp.sdk.SignatureHandler constructor
+     * com.trxhosts.sdk.SignatureHandler constructor
      * @param projectSecret site sale
      */
     public SignatureHandler(String projectSecret) {

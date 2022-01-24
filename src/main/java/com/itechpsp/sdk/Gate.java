@@ -1,4 +1,4 @@
-package com.itechpsp.sdk;
+package com.trxhosts.sdk;
 
 /**
  * Class for communicate with our
@@ -6,17 +6,17 @@ package com.itechpsp.sdk;
 public class Gate
 {
     /**
-     * com.itechpsp.sdk.SignatureHandler instance for check signature
+     * com.trxhosts.sdk.SignatureHandler instance for check signature
      */
     private SignatureHandler signatureHandler;
 
     /**
-     * com.itechpsp.sdk.PaymentPage instance for build payment URL
+     * com.trxhosts.sdk.PaymentPage instance for build payment URL
      */
     private PaymentPage paymentPageUrlBuilder;
 
     /**
-     * com.itechpsp.sdk.Gate constructor
+     * com.trxhosts.sdk.Gate constructor
      * @param secret site salt
      */
     public Gate(String secret) {
@@ -37,7 +37,7 @@ public class Gate
 
     /**
      * Method build payment URL
-     * @param payment com.itechpsp.sdk.Payment instance with payment params
+     * @param payment com.trxhosts.sdk.Payment instance with payment params
      * @return string URL that you can use for redirect on payment page
      */
     public String getPurchasePaymentPageUrl(Payment payment) {
@@ -47,7 +47,7 @@ public class Gate
     /**
      * Method for handling callback
      * @param data raw callback data in JSON format
-     * @return com.itechpsp.sdk.Callback instance
+     * @return com.trxhosts.sdk.Callback instance
      * @throws ProcessException throws when signature is invalid
      */
     public Callback handleCallback(String data) throws ProcessException {

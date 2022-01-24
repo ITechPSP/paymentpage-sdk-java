@@ -1,4 +1,4 @@
-package com.itechpsp.sdk;
+package com.trxhosts.sdk;
 
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
@@ -33,17 +33,17 @@ public class Callback
     private HashMap<String, Object> data;
 
     /**
-     * com.itechpsp.sdk.SignatureHandler instance for check callback signature
+     * com.trxhosts.sdk.SignatureHandler instance for check callback signature
      */
     private SignatureHandler signatureHandler;
 
     /**
-     * com.itechpsp.sdk.Callback signature
+     * com.trxhosts.sdk.Callback signature
      */
     private String signature;
 
     /**
-     * com.itechpsp.sdk.Callback constructor decode callback data and check signature
+     * com.trxhosts.sdk.Callback constructor decode callback data and check signature
      * @param callbackData raw callback data
      * @param signHandler signatureHandler for check callback signature
      * @throws ProcessException throws when signature is incorrect

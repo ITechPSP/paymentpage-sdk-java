@@ -1,5 +1,5 @@
-import com.itechpsp.sdk.Payment;
-import com.itechpsp.sdk.SignatureHandler;
+import com.trxhosts.sdk.Payment;
+import com.trxhosts.sdk.SignatureHandler;
 
 import java.time.ZonedDateTime;
 import java.time.format.DateTimeFormatter;
